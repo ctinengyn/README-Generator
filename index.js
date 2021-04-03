@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 
+
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -35,18 +37,25 @@ const questions = [
             name: "Apache License 2.0"
         },
         {
-            name: "The Unlicense"
-        },
-        {
             name: "Boost Software License 1.0"
         },
+        {
+            name: "Microsoft Public License"
+        },
+        {
+            name: "The Unlicense"
         }]
+    },
+    {
+        type: "input",
+        name: "Contributors",
+        messgae: "Who are the contributors of this project?"
     },
     {
         type: "input",
         name: "Email",
         message: "What is your email?"
-    },
+    }
 ];
 
 // TODO: Create a function to write README file
