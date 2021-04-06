@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 
 // TODO: Create an array of questions for user input
@@ -34,18 +35,12 @@ const questions = [
         type: "list",
         name: "License",
         messgae: "Please choose what license you would like to use for your project"
-        choices: [{
-            name: "Apache License 2.0"
-        },
-        {
-            name: "Boost Software License 1.0"
-        },
-        {
-            name: "Microsoft Public License"
-        },
-        {
-            name: "The Unlicense"
-        }]
+        choices: [
+            "Apache License 2.0",
+            "Boost Software License 1.0",
+            "Microsoft Public License",
+            "The Unlicense"
+        ]
     },
     {
         type: "input",
