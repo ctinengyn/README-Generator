@@ -8,7 +8,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: "input",
-        name: "userName",
+        name: "github",
         message: "What is your GitHub username?"
     },
     {
@@ -48,7 +48,7 @@ const questions = [
         choices: [
             "Apache License 2.0",
             "Boost Software License 1.0",
-            "Microsoft Public License",
+            "The Artistic License 2.0",
             "The Unlicense",
             "None"
         ]
