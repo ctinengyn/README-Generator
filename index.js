@@ -46,7 +46,7 @@ const questions = [
         name: "license",
         message: "Please choose what license you would like to use for your project",
         choices: [
-            "Apache License 2.0",
+            "Apache 2.0 License",
             "Boost Software License 1.0",
             "The Artistic License 2.0",
             "The Unlicense",
