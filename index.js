@@ -28,13 +28,18 @@ const questions = [
     },
     {
         type: "input",
-        name: "Instsall",
+        name: "instsall",
         message: "Describe the installation process steps if any:"
     },
     {
         type: "input",
         name: "usage",
         message: "Provide examples of how your project could be used:"
+    },
+    {
+        type: "input",
+        name: "test",
+        message: "Is there a test included?"
     },
     {
         type: "rawlist",
