@@ -16,8 +16,12 @@ function generateMarkdown(data) {
 
   # ${data.projectTitle}
 
+  ---
+
   ## Description
   ${data.description}
+
+  ---
 
   ## Table of Contents
   * [Installation](#install)
@@ -25,6 +29,37 @@ function generateMarkdown(data) {
   * [Test](#test)
   * [License](#license)
   * [Contributors](#contributors)
+  
+  ---
+
+  ## Installation
+  ${data.install}
+
+  ---
+
+  ## Usage
+  ${data.usage}
+
+  ---
+
+  ## Test
+  ${data.test}
+
+  ---
+
+  ## License
+  ${data.license}
+
+  ---
+
+  ## Contributors
+  ${data.contributors}
+
+  ## Badges
+  [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+
+  **How can I contact you if I have any further questions?**
+  ${data.email}
 `;
 }
 

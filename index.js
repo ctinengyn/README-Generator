@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "instsall",
+        name: "install",
         message: "Describe the installation process steps if any:"
     },
     {
