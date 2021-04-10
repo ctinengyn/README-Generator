@@ -3,7 +3,7 @@
   # README-Generator
 
   ## Description
-  A node.js application that uses user input from inquirer to populate a README.md file for user repository. The README.md file is created in the dist directory and can be found here: https://drive.google.com/file/d/1UcrM0GTmtyuIqS40yroHwhpgHiAwGHod/view
+  A node.js application that uses user input from inquirer to populate a README.md file for user repository. The README.md file is created in the dist directory and can be found here: https://drive.google.com/file/d/1UcrM0GTmtyuIqS40yroHwhpgHiAwGHod/view 🎥
 
   ---
 
@@ -51,7 +51,7 @@
 
   ---
 
-  ## How can I contact you if I have any further questions?
+  ## How can I contact you if I have any further questions? ✉️
 
   **Email:**
   ctine.ngyn@gmail.com

@@ -27,6 +27,7 @@ function renderLicenseSection(license) {
 };
 
 // TODO: Create a function to generate markdown for README
+// Styles for README.md
 function generateMarkdown(data) {
   return `
 
