@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   
   if (license!== "None") {
-    
+    // Filling in the white space with "%20"
     license = license.split (" ").join("%20")
     return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`
   }
