@@ -36,7 +36,7 @@
 
   ---
 
-  ## Contributors
+  ## Contributors ✨
   [Christine Nguyen](https://github.com/ctinengyn)
 
   ---
