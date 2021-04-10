@@ -21,7 +21,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "None") {
     return `## License
-    This application is covered by the ${data.license} license`
+    This application is covered by the ${license} license`
   }
 }
 
